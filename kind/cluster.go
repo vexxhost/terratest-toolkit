@@ -1,4 +1,4 @@
-package cluster
+package kind
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ type Cluster struct {
 	*testing.T
 }
 
-func New(t *testing.T) *Cluster {
+func NewCluster(t *testing.T) *Cluster {
 	return &Cluster{
 		Name: strings.ToLower(random.UniqueId()),
 		T:    t,

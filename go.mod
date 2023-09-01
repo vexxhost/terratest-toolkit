@@ -1,4 +1,4 @@
-module github.com/vexxhost/terratest-kind
+module github.com/vexxhost/terratest-toolkit
 
 go 1.20
 
